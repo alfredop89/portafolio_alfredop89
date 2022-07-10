@@ -1,0 +1,110 @@
+header {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  border-bottom: 5px solid white;
+  background-color: rgba(22, 22, 22, 0.798);
+  backdrop-filter: blur(20px) !important;
+  margin: 0% !important;
+  z-index: 10; }
+  header nav .logo {
+    height: 60px; }
+  header nav a {
+    color: white !important; }
+  header nav i {
+    font-size: 40px;
+    color: white; }
+  @media (min-width: 992px) {
+    header nav .menubar {
+      display: none; } }
+  header nav ul li {
+    width: auto;
+    border-bottom: 3px solid rgba(255, 255, 255, 0); }
+    header nav ul li:hover {
+      border-bottom: 3px solid white !important;
+      transition: margin-left 4s ease-in-out 1s; }
+
+.banner {
+  background-image: url(../assets/sand.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin: 0% !important; }
+  .banner .name-logo {
+    height: auto;
+    width: auto;
+    opacity: 1; }
+  .banner .banner-text {
+    height: 100vh;
+    transform: translateY(40%); }
+    .banner .banner-text p {
+      font-size: 25px; }
+    .banner .banner-text .p-dos {
+      font-weight: 600;
+      font-size: 35px; }
+
+footer {
+  border-top: 5px solid white;
+  background-color: #1b1b1b !important;
+  width: 100%; }
+  footer .logofooter {
+    height: 75px !important;
+    width: 100px !important; }
+  footer i {
+    color: white;
+    font-size: 30px;
+    padding: 15px; }
+  footer .adress-icon {
+    font-size: 15px !important; }
+  footer .redes i {
+    width: auto; }
+
+.bio-img {
+  border-radius: 50%;
+  height: 300px !important;
+  width: auto !important;
+  border-radius: 5px solid black !important;
+  position: relative;
+  z-index: 2; }
+
+.bio-splash {
+  position: absolute;
+  height: 400px;
+  transform: translateX(-5%);
+  z-index: 0; }
+
+.skills {
+  background-image: url(../assets/wood.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+i {
+  font-size: 80px; }
+
+.proyectos {
+  margin-bottom: 30px; }
+  .proyectos .responsive-img {
+    position: relative;
+    z-index: 2; }
+  .proyectos .responsive-splash {
+    position: absolute;
+    height: 400px;
+    opacity: 0.2;
+    transform: translateY(-15%);
+    z-index: 0; }
+  .proyectos a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px; }
+
+body {
+  background-color: white !important;
+  font-family: 'Montserrat', sans-serif !important; }
+
+/*# sourceMappingURL=styles.css.map */

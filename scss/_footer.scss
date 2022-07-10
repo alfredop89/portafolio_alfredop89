@@ -1,0 +1,22 @@
+footer{
+    border-top: 5px solid white;
+    background-color: rgb(27, 27, 27) !important;
+    width: 100%;
+    .logofooter{
+        height: 75px !important;
+        width: 100px !important;
+    }
+    i{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        padding: 15px;
+    }
+    .adress-icon{
+        font-size: 15px !important;
+    }
+    .redes{
+        i{
+            width: auto;
+        }
+    }
+}
