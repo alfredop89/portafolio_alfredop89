@@ -1,28 +1,30 @@
 header {
   position: fixed;
   height: auto;
-  width: 100%;
+  width: 100% !important;
   border-bottom: 5px solid white;
   background-color: rgba(22, 22, 22, 0.798);
   backdrop-filter: blur(20px) !important;
   margin: 0% !important;
-  z-index: 10; }
-  header nav .logo {
-    height: 60px; }
-  header nav a {
-    color: white !important; }
-  header nav i {
-    font-size: 40px;
-    color: white; }
-  @media (min-width: 992px) {
-    header nav .menubar {
-      display: none; } }
-  header nav ul li {
-    width: auto;
-    border-bottom: 3px solid rgba(255, 255, 255, 0); }
-    header nav ul li:hover {
-      border-bottom: 3px solid white !important;
-      transition: margin-left 4s ease-in-out 1s; }
+  z-index: 20; }
+  header nav {
+    width: 100% !important; }
+    header nav .logo {
+      height: 60px; }
+    header nav a {
+      color: white !important; }
+    header nav i {
+      font-size: 40px;
+      color: white; }
+    @media (min-width: 992px) {
+      header nav .menubar {
+        display: none; } }
+    header nav ul li {
+      width: auto;
+      border-bottom: 3px solid rgba(255, 255, 255, 0); }
+      header nav ul li:hover {
+        border-bottom: 3px solid white !important;
+        transition: margin-left 4s ease-in-out 1s; }
 
 .banner {
   background-image: url(../assets/sand.jpg);
