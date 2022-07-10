@@ -41,7 +41,7 @@ header {
     opacity: 1; }
   .banner .banner-text {
     height: 100vh;
-    transform: translateY(40%); }
+    transform: translateY(35%); }
     .banner .banner-text p {
       font-size: 25px; }
     .banner .banner-text .p-dos {
