@@ -4,7 +4,7 @@ header{
     height: auto;
     width: 100% !important;
     border-bottom: 5px solid white;
-    background-color: rgba(22, 22, 22, 0.798);
+    background-color: rgba(22, 22, 22, 0.9);
     backdrop-filter: blur(20px) !important;
     margin: 0% !important;
     z-index: 20;
@@ -12,7 +12,13 @@ header{
         width: 100% !important;
         .logo{
             height: 60px;
-        }
+            @media screen and (min-width: 568px){
+                .logo{
+                    height: 30px;
+                }
+            }
+                
+            }
         a{
             color: white !important;
         }
