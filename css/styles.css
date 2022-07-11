@@ -67,19 +67,20 @@ footer {
   footer .redes i {
     width: auto; }
 
-.bio-img {
-  border-radius: 50%;
-  height: 300px !important;
-  width: auto !important;
-  border-radius: 5px solid black !important;
-  position: relative;
-  z-index: 2; }
-
-.bio-splash {
-  position: absolute;
-  height: 400px;
-  transform: translateX(-5%);
-  z-index: 0; }
+.bio {
+  background-color: white !important; }
+  .bio .bio-img {
+    border-radius: 50%;
+    height: 300px !important;
+    width: auto !important;
+    border-radius: 5px solid black !important;
+    position: relative;
+    z-index: 2; }
+  .bio .bio-splash {
+    position: absolute;
+    height: 400px;
+    transform: translateX(-5%);
+    z-index: 0; }
 
 .skills {
   background-image: url(../assets/wood.jpg);
@@ -95,6 +96,7 @@ i {
   font-size: 80px; }
 
 .proyectos {
+  background-color: white !important;
   margin-bottom: 30px; }
   .proyectos .responsive-img {
     position: relative;

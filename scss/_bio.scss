@@ -1,14 +1,18 @@
-.bio-img{
-    border-radius: 50%;
-    height: 300px !important;
-    width: auto !important;
-    border-radius: 5px solid black !important;
-    position: relative;
-    z-index: 2;
+.bio{
+    background-color: white !important;
+    .bio-img{
+        border-radius: 50%;
+        height: 300px !important;
+        width: auto !important;
+        border-radius: 5px solid black !important;
+        position: relative;
+        z-index: 2;
+    }
+    .bio-splash{
+        position: absolute;
+        height: 400px;
+        transform: translateX(-5%);
+        z-index: 0;
+    }
 }
-.bio-splash{
-    position: absolute;
-    height: 400px;
-    transform: translateX(-5%);
-    z-index: 0;
-}
+
